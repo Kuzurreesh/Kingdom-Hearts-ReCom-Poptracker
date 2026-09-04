@@ -386,6 +386,41 @@
 									]
 								}
 							]
+						},{
+							"title": "Overview",
+							"content": [
+								{
+									"type": "array",
+									"orientation": "vertical",
+									"v_alignment": "top",
+									"margin": "0, 0",
+									"content": [
+										{
+											"type": "map",
+											"maps": [
+												"Overview"
+											]
+										},
+										{
+											"type": "array",
+											"orientation": "horizontal",
+											"v_alignment": "top",
+											"margin": "0, 0",
+											"content": [
+												{
+													"type": "itemgrid",
+													"item_size": "244,138",
+													"rows": [
+														[
+															""
+														]
+													]
+												}
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"title": "Heartless",
@@ -422,43 +457,8 @@
 									]
 								}
 							]
-						},
-						{
-							"title": "Overview",
-							"content": [
-								{
-									"type": "array",
-									"orientation": "vertical",
-									"v_alignment": "top",
-									"margin": "0, 0",
-									"content": [
-										{
-											"type": "map",
-											"maps": [
-												"Overview"
-											]
-										},
-										{
-											"type": "array",
-											"orientation": "horizontal",
-											"v_alignment": "top",
-											"margin": "0, 0",
-											"content": [
-												{
-													"type": "itemgrid",
-													"item_size": "244,138",
-													"rows": [
-														[
-															""
-														]
-													]
-												}
-											]
-										}
-									]
-								}
-							]
 						}
+						
 					]
 				}
 			]

@@ -1,15 +1,15 @@
 {
-    "name": "Kingdom Hearts RE Chain of Memories - Poptracker Pack",
+    "name": "Kingdom Hearts RE Chain of Memories - Tracker",
     "game_name": "Kingdom Hearts RE Chain of Memories",
-    "package_version": "0.0.1",
+    "package_version": "1.0.0",
     "package_uid": "KH_RECOM",
     "author": "Kuzurreesh",
     "min_poptracker_version": "0.35.4",
     "target_poptracker_version": "0.35.4",
     "variants": {
-        "Evo Line Tracker": {
-            "display_name": "Tracker 0.0.1",
+        "Tracker": {
+            "display_name": "Tracker 1.0.0",
 			"flags": ["ap"]
         }
-    }
+    }, "versions_url": "https://raw.githubusercontent.com/Kuzurreesh/Kingdom-Hearts-ReCom-Poptracker/refs/heads/versions/versions.json"
 }

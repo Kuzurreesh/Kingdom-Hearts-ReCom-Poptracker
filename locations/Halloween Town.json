@@ -141,7 +141,7 @@
                         "chest_unopened_img": "images/heartless/Shadow.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -149,7 +149,7 @@
                         "chest_unopened_img": "images/heartless/Search Ghost.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -157,7 +157,7 @@
                         "chest_unopened_img": "images/heartless/Creeper Plant.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -165,7 +165,7 @@
                         "chest_unopened_img": "images/heartless/Wight Knight.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -173,7 +173,7 @@
                         "chest_unopened_img": "images/heartless/Gargoyle.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -181,7 +181,7 @@
                         "chest_unopened_img": "images/heartless/Black Fungus.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -189,7 +189,7 @@
                         "chest_unopened_img": "images/heartless/White Mushroom.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     }
                 ]

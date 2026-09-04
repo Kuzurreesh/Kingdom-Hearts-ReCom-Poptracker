@@ -137,7 +137,7 @@
                         "chest_unopened_img": "images/heartless/Shadow.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -145,7 +145,7 @@
                         "chest_unopened_img": "images/heartless/Yellow Opera.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -153,7 +153,7 @@
                         "chest_unopened_img": "images/heartless/Green Requiem.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -161,7 +161,7 @@
                         "chest_unopened_img": "images/heartless/Air Soldier.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -169,7 +169,7 @@
                         "chest_unopened_img": "images/heartless/Large Body.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -177,7 +177,7 @@
                         "chest_unopened_img": "images/heartless/Search Ghost.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -185,7 +185,7 @@
                         "chest_unopened_img": "images/heartless/Tornado Step.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -193,7 +193,7 @@
                         "chest_unopened_img": "images/heartless/Barrel Spider.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -201,7 +201,7 @@
                         "chest_unopened_img": "images/heartless/Black Fungus.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     },
                     {
@@ -209,7 +209,7 @@
                         "chest_unopened_img": "images/heartless/White Mushroom.png",
                         "chest_opened_img": "images/Heartless/defeated.png",
                         "clear_as_group": false,
-                        "item_size": "52,39",
+                        "item_size": "44,33",
                         "item_count": 3
                     }
                 ]
