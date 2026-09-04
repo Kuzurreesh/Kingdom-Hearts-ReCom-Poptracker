@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Traverse Town",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "children": [
+            {
+                "name": "Room of Beginnings",
+                "visibility_rules": [
+                    "leon"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 159,
+                        "y": 187
+                    }
+                ],
+                "sections": [
+                    {
+                        "item_count": 4
+                    }
+                ]
+            },
+            {
+                "name": "Room of Guidance",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 240,
+                        "y": 135
+                    }
+                ],
+                "sections": [
+                    {}
+                ]
+            },
+            {
+                "name": "Room of Truth",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 323,
+                        "y": 60
+                    }
+                ],
+                "sections": [
+                    {
+                        "item_count": 2,"clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Room of Rewards",
+                "access_rules": [
+                    "keys traverse town"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 323,
+                        "y": 330
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack Cards Lionheart"
+                    },
+                    {
+                        "name": "Enemy Cards Saix",
+                        "visibility_rules": [
+                            "days"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bounty",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 470,
+                        "y": 30
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pick Up Donald",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Pick Up Goofy",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Pick Up Pluto",
+                        "visibility_rules": [
+                            "leon"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Attack Cards Maverick Flare",
+                        "visibility_rules": [
+                            "days"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Starting Checks",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 76,
+                        "y": 408
+                    }
+                ],
+                "sections": [
+                    {
+                        "item_count": 8
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Heartless",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 50,
+                        "y": 30
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shadow",
+                        "chest_unopened_img": "images/heartless/Shadow.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Soldier",
+                        "chest_unopened_img": "images/heartless/Soldier.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Red Nocturne",
+                        "chest_unopened_img": "images/heartless/Red Nocturne.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Blue Rhapsody",
+                        "chest_unopened_img": "images/heartless/Blue Rhapsody.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Black Fungus",
+                        "chest_unopened_img": "images/heartless/Black Fungus.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "White Mushroom",
+                        "chest_unopened_img": "images/heartless/White Mushroom.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floor 1",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "children": [
+            {
+                "name": "Exit Hall",
+                "map_locations": [
+                    {
+                        "map": "Floor 1",
+                        "x": 500,
+                        "y": 30
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Axel I (Magic Cards Fire)",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

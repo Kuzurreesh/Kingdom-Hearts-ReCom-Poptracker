@@ -1,0 +1,219 @@
+[
+    {
+        "name": "Monstro",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "access_rules":["monstro"],
+        "children": [
+            {
+                "name": "Room of Beginnings",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room of Guidance",
+                "sections": [
+                    {
+                        "item_count": 2,"clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Room of Truth",
+                "sections": [
+                    {
+                        "item_count": 4,"clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Room of Rewards",
+                "access_rules":["keys monstro"],
+                "sections": [
+                    {
+                        "name": "Sleight Aqua Splash"
+                    },
+                    {
+                        "name": "Enemy Cards Xaldin",
+                        "visibility_rules": [
+                            "days"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bounty",
+                "sections": [
+                    {
+                        "name": "Sleight Fire Raid"
+                    },
+                    {
+                        "name": "Field Attack Cards Wishing Star"
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Heartless",
+                "map_locations": [
+                    {
+                        "map": "Floor 2",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|2|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 3",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|3|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 4",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|4|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 5",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|5|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 6",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|6|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 7",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|7|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 8",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|8|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 9",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|9|Monstro"
+                        ]
+                    },
+                    {
+                        "map": "Floor 10",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|10|Monstro"
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shadow",
+                        "chest_unopened_img": "images/heartless/Shadow.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Yellow Opera",
+                        "chest_unopened_img": "images/heartless/Yellow Opera.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Green Requiem",
+                        "chest_unopened_img": "images/heartless/Green Requiem.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Air Soldier",
+                        "chest_unopened_img": "images/heartless/Air Soldier.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Large Body",
+                        "chest_unopened_img": "images/heartless/Large Body.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Search Ghost",
+                        "chest_unopened_img": "images/heartless/Search Ghost.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Tornado Step",
+                        "chest_unopened_img": "images/heartless/Tornado Step.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Barrel Spider",
+                        "chest_unopened_img": "images/heartless/Barrel Spider.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Black Fungus",
+                        "chest_unopened_img": "images/heartless/Black Fungus.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "White Mushroom",
+                        "chest_unopened_img": "images/heartless/White Mushroom.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

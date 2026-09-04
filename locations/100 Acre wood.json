@@ -1,0 +1,125 @@
+[
+    {
+        "name": "100 Acre Wood",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "access_rules": [
+            "100 acre wood"
+        ],
+        "children": [
+            {
+                "name": "Room 1",
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 61,
+                        "y": 449
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Piglet (Sleight Confuse)",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room 2",
+                "visibility_rules": [
+                    "minigames"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 154,
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Veggie Panic (Sleight Cross-slash+)",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room 3",
+                "visibility_rules": [
+                    "minigames"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 249,
+                        "y": 295
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Balloon Glider (Sleight Firaga Burst)",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room 4",
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 343,
+                        "y": 222
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Jump-a-Thon (Sleight Idyll Romp)",
+                        "visibility_rules": [
+                            "minigames"
+                        ]
+                    },
+                    {
+                        "name": "Attack Cards Spellbinder",
+                        "access_rules": "neverland,monstro"
+                    }
+                ]
+            },
+            {
+                "name": "Room 5",
+                "visibility_rules": [
+                    "minigames"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 436,
+                        "y": 146
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Whirlwind Plunge (Item Cards Mega-Ether)"
+                    },
+                    {
+                        "name": "Bumble Rumble (Item Cards Elixir)"
+                    }
+                ]
+            },
+            {
+                "name": "Room 6",
+                "map_locations": [
+                    {
+                        "map": "Floor 100",
+                        "x": 531,
+                        "y": 71
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Clear",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

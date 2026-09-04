@@ -1,0 +1,208 @@
+[
+    {
+        "name": "Hollow Bastion",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "access_rules":["Hollow Bastion"],
+        "children": [
+            {
+                "name": "Room of Beginnings",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room of Guidance",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room of Truth",
+                "sections": [
+                    {
+                        "item_count": 2,"clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Room of Rewards","access_rules":["keys hollow bastion"],
+                "sections": [
+                    {
+                        "name": "Mushu",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Enemy Cards Xigbar",
+                        "visibility_rules": [
+                            "days"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bounty",
+                "sections": [
+                    {
+                        "name": "Sleight Reflect Raid",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Field Attack Cards Divine Rose"
+                    },
+                    {
+                        "name": "Pick Up Beast",
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Heartless",
+                "map_locations": [
+                    {
+                        "map": "Floor 2",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|2|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 3",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|3|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 4",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|4|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 5",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|5|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 6",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|6|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 7",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|7|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 8",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|8|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 9",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|9|Hollow Bastion"
+                        ]
+                    },
+                    {
+                        "map": "Floor 10",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|10|Hollow Bastion"
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shadow",
+                        "chest_unopened_img": "images/heartless/Shadow.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Darkball",
+                        "chest_unopened_img": "images/heartless/Darkball.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Tornado Step",
+                        "chest_unopened_img": "images/heartless/Tornado Step.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Defender",
+                        "chest_unopened_img": "images/heartless/Defender.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Wyvern",
+                        "chest_unopened_img": "images/heartless/Wyvern.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Wizard",
+                        "chest_unopened_img": "images/heartless/Wizard.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Black Fungus",
+                        "chest_unopened_img": "images/heartless/Black Fungus.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "White Mushroom",
+                        "chest_unopened_img": "images/heartless/White Mushroom.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Halloween Town",
+        "chest_opened_img": "Images/labels/open chest.png",
+        "chest_unopened_img": "images/labels/closed chest.png",
+        "access_rules":["halloween town"],
+        "children": [
+            {
+                "name": "Room of Beginnings",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room of Guidance",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Room of Truth",
+                "sections": [
+                    {
+                        "item_count": 2,"clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Room of Rewards","access_rules":["keys halloween town"],
+                "sections": [
+                    {
+                        "name": "Sleight Bind"
+                    },
+                    {
+                        "name": "Attack Cards Bond of Flame",
+                        "visibility_rules": [
+                            "days"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bounty",
+                "sections": [
+                    {
+                        "name": "Sleight Gifted Miracle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Field Attack Cards Pumpkinhead"
+                    },
+                    {
+                        "name": "Pick Up Jack",
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Defeat Heartless",
+                "map_locations": [
+                    {
+                        "map": "Floor 2",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|2|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 3",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|3|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 4",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|4|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 5",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|5|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 6",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|6|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 7",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|7|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 8",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|8|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 9",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|9|Halloween Town"
+                        ]
+                    },
+                    {
+                        "map": "Floor 10",
+                        "x": 50,
+                        "y": 30,
+                        "force_invisibility_rules": [
+                            "$CheckFloor|10|Halloween Town"
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shadow",
+                        "chest_unopened_img": "images/heartless/Shadow.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Search Ghost",
+                        "chest_unopened_img": "images/heartless/Search Ghost.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Creeper Plant",
+                        "chest_unopened_img": "images/heartless/Creeper Plant.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Wight Knight",
+                        "chest_unopened_img": "images/heartless/Wight Knight.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Gargoyle",
+                        "chest_unopened_img": "images/heartless/Gargoyle.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Black Fungus",
+                        "chest_unopened_img": "images/heartless/Black Fungus.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "White Mushroom",
+                        "chest_unopened_img": "images/heartless/White Mushroom.png",
+                        "chest_opened_img": "images/Heartless/defeated.png",
+                        "clear_as_group": false,
+                        "item_size": "52,39",
+                        "item_count": 3
+                    }
+                ]
+            }
+        ]
+    }
+]
