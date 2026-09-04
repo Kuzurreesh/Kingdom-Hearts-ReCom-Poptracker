@@ -1,11 +1,11 @@
 {
     "versions": [    
         {
-            "package_version": "0.4.1",
-            "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.4.1.zip",
-            "sha256": "9007a9304b61a1a6132140fc3cbd3c4415c497e0278a2825f1fa6a6a00100b8f",
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Kuzurreesh/Kingdom-Hearts-ReCom-Poptracker/archive/refs/tags/v1.0.0.zip",
+            "sha256": "8b16cfb5a20333f567cc5c9d65645021c6068750341cb035f94c0162f3d2ace8",
             "changelog": [
-                "First Release"
+                "Initial Release"
             ]
         }
     ]
