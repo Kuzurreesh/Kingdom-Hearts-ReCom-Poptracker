@@ -1,0 +1,12 @@
+{
+    "versions": [    
+        {
+            "package_version": "0.4.1",
+            "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.4.1.zip",
+            "sha256": "9007a9304b61a1a6132140fc3cbd3c4415c497e0278a2825f1fa6a6a00100b8f",
+            "changelog": [
+                "First Release"
+            ]
+        }
+    ]
+}
